@@ -1,0 +1,116 @@
+* {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(136, 218, 233);
+}
+
+.h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 3%;
+}
+
+.h1:hover {
+        color: white;
+}
+
+.box {
+        background-color: azure;
+        padding: 20px;
+        width: 30%;
+        border-radius: 30px;
+        margin-left: 33%;
+        margin-top: 5%;
+        align-items: center;
+        color: black;
+
+
+}
+
+.box:hover {
+        background-color: rgb(124, 185, 243);
+        color: white;
+}
+
+.btn1 {
+        padding: 20px;
+        border-radius: 30px;
+        background-color: azure;
+
+}
+
+.btn1:hover {
+        background-color: green;
+}
+
+.cross {
+
+        width: 2%;
+        background-color: rgb(32, 41, 41);
+        color: rgb(243, 232, 232);
+        margin-left: 88%;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        right: 36%;
+        margin: 4px;
+        font-size: large;
+        cursor: pointer;
+        transition: 0.1s;
+        
+
+}
+
+.cross:hover {
+        background-color: red;
+        color: white;
+}
+
+.h3 {
+        font-size: 15px;
+        padding: 15px;
+        background-color: rgb(169, 205, 206);
+        width: 5%;
+        margin-left: 33%;
+        margin-top: 5%;
+        border-radius: 15px;
+
+}
+
+.ul {
+
+        align-items: center;
+        margin-top: 5px;
+        margin-left: 21%;
+
+}
+
+.li {
+        list-style-type: none;
+        /* background-color: #596e8b; */
+        border: 2px solid rgb(19, 18, 18);
+        color: rgb(26, 25, 25);
+        padding: 3px;
+        border-radius: 5px;
+        width: 30%;
+        height: 30px;
+        margin-top: 9px;
+        margin-left: 21%;
+        align-items: center;
+}
+
+.fa fa-trash-o {
+        position: absolute;
+        right: 10px;
+}
+
+.fa fa-trash-o {
+        margin: 4px;
+        font-size: large;
+        cursor: pointer;
+        transition: 0.1s;
+}
+
+.fa fa-trash-o:hover {
+        transform: scale(1.2);
+}
